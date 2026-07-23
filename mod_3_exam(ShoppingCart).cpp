@@ -17,7 +17,6 @@ int main(){
     cart = cart + item3;
 
     cout << "Shopping Cart" << endl;
-    cout << "-------------" << endl;
 
     for(int i=0;i<cart.getItemCount();i++){
         cout << cart[i].getName()
